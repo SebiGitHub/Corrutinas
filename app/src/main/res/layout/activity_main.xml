@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/fondo"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <!-- Título -->
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo"
+        android:textStyle="bold"
+        android:layout_marginTop="-80dp"
+        android:textSize="33sp"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/editTextTiempo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/tiempo"
+        android:inputType="number"
+        android:layout_marginTop="120dp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/buttonIniciar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_iniciar"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/buttonDetener"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_detener"
+        android:layout_marginBottom="16dp"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="16dp"
+        android:indeterminate="false"
+        android:max="100"
+        android:progressTint="@android:color/holo_blue_bright"
+        style="?android:attr/progressBarStyleHorizontal"/>
+</LinearLayout>

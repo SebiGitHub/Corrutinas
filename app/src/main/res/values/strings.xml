@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Corrutinas</string>
+    <string name="tiempo">Tiempo (segundos)</string>
+    <string name="btn_iniciar">Iniciar Temporizador</string>
+    <string name="btn_detener">Detener Temporizador</string>
+    <string name="titulo">Tem-pos</string>
+</resources>
