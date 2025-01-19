@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
-    <color name="fondo">#f9ddfb</color>
+    <color name="fondo">#5ce7f5</color> <!-- Fondo de la app -->
+    <color name="progreso">#F44336</color> <!-- Rojo para la barra de progreso -->
+    <color name="white">#FFFFFF</color> <!-- Blanco -->
+    <color name="black">#000000</color> <!-- Negro -->
+    <color name="boton">#f2df3d</color> <!-- Amarillo para los botones -->
 </resources>

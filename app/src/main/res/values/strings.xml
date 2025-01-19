@@ -3,5 +3,11 @@
     <string name="tiempo">Tiempo (segundos)</string>
     <string name="btn_iniciar">Iniciar Temporizador</string>
     <string name="btn_detener">Detener Temporizador</string>
-    <string name="titulo">Tem-pos</string>
+    <string name="titulo">TEMP-POS</string>
+    <string name="primos">Calcular Primos</string>
+    <string name="c_estado">Cargar Estado</string>
+    <string name="t_estado">Estado del temporizador:</string>
+
+
+
 </resources>

@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp"
+    android:padding="20dp"
     android:background="@color/fondo"
     android:gravity="center"
     tools:context=".MainActivity">
@@ -18,33 +17,43 @@
         android:layout_height="wrap_content"
         android:text="@string/titulo"
         android:textStyle="bold"
-        android:layout_marginTop="-80dp"
-        android:textSize="33sp"
-        android:textColor="@color/black" />
+        android:textSize="34sp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="36dp" />
 
+    <!-- Campo de entrada para tiempo -->
     <EditText
         android:id="@+id/editTextTiempo"
-        android:layout_width="wrap_content"
+        android:layout_width="204dp"
         android:layout_height="wrap_content"
         android:hint="@string/tiempo"
         android:inputType="number"
-        android:layout_marginTop="120dp"
+        android:background="@drawable/custom_edittext"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:textSize="18sp"
         android:layout_marginBottom="16dp"/>
 
+    <!-- Botones -->
     <Button
         android:id="@+id/buttonIniciar"
-        android:layout_width="wrap_content"
+        android:layout_width="204dp"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="@drawable/custom_button"
         android:text="@string/btn_iniciar"
-        android:layout_marginBottom="16dp"/>
+        android:textColor="@color/white" />
 
     <Button
         android:id="@+id/buttonDetener"
-        android:layout_width="wrap_content"
+        android:layout_width="204dp"
         android:layout_height="wrap_content"
         android:text="@string/btn_detener"
+        android:backgroundTint="@drawable/custom_button"
+        android:textColor="@color/white"
         android:layout_marginBottom="16dp"/>
 
+    <!-- Barra de progreso circular -->
     <ProgressBar
         android:id="@+id/progressBar"
         android:layout_width="150dp"
@@ -52,33 +61,38 @@
         android:layout_marginTop="16dp"
         android:indeterminate="false"
         android:max="100"
-        android:progressTint="@android:color/holo_blue_bright"
+        android:progressTint="@color/progreso"
         style="?android:attr/progressBarStyleHorizontal"/>
 
     <!-- Botón para calcular números primos -->
     <Button
         android:id="@+id/buttonCalcularPrimos"
-        android:layout_width="wrap_content"
+        android:layout_width="204dp"
         android:layout_height="wrap_content"
-        android:text="Calcular Primos"
-        android:layout_marginTop="16dp"/>
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@drawable/custom_button"
+        android:text="@string/primos"
+        android:textColor="@color/white" />
 
     <!-- Botón para cargar el estado guardado del temporizador -->
     <Button
         android:id="@+id/buttonCargarEstado"
-        android:layout_width="wrap_content"
+        android:layout_width="205dp"
         android:layout_height="wrap_content"
-        android:text="Cargar Estado"
-        android:layout_marginTop="16dp"/>
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@drawable/custom_button"
+        android:text="@string/c_estado"
+        android:textColor="@color/white" />
 
     <!-- Texto para mostrar el estado guardado -->
     <TextView
         android:id="@+id/textViewEstado"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Estado del temporizador:"
+        android:text="@string/t_estado"
+        android:textStyle="bold"
         android:layout_marginTop="16dp"
-        android:textSize="16sp"
+        android:textSize="18sp"
         android:textColor="@color/black"/>
 
 </LinearLayout>
