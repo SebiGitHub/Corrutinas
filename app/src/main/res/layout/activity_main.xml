@@ -54,4 +54,31 @@
         android:max="100"
         android:progressTint="@android:color/holo_blue_bright"
         style="?android:attr/progressBarStyleHorizontal"/>
+
+    <!-- Botón para calcular números primos -->
+    <Button
+        android:id="@+id/buttonCalcularPrimos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calcular Primos"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Botón para cargar el estado guardado del temporizador -->
+    <Button
+        android:id="@+id/buttonCargarEstado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cargar Estado"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Texto para mostrar el estado guardado -->
+    <TextView
+        android:id="@+id/textViewEstado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estado del temporizador:"
+        android:layout_marginTop="16dp"
+        android:textSize="16sp"
+        android:textColor="@color/black"/>
+
 </LinearLayout>
