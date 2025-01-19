@@ -4,5 +4,5 @@
     <color name="progreso">#F44336</color> <!-- Rojo para la barra de progreso -->
     <color name="white">#FFFFFF</color> <!-- Blanco -->
     <color name="black">#000000</color> <!-- Negro -->
-    <color name="boton">#f2df3d</color> <!-- Amarillo para los botones -->
+    <color name="boton">#f2df3d</color> <!-- Para los botones -->
 </resources>
